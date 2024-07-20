@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const links = [
     {url : "/", title:"Home"},
     {url : "/about", title:"About"},
-    {url : "/title", title:"PortFolio"},
+    {url : "/portfolio", title:"PortFolio"},
     {url : "/contact", title:"Contact"},
 ];
 
@@ -85,24 +85,24 @@ const Navbar =  ()=>{
             <div className="hidden md:flex gap-4 w-1/3 ">
              
             <Link href= "https://github.com/ShivamYadav-12">
-            <Image src="/github.png" width={24} height={24}/>
+            <Image src="/github.png" alt="githubimage" width={24} height={24}/>
             </Link>
            
             
             <Link href= "https://www.linkedin.com/in/shivam-yadav-72abaa266/">
-            <Image src="/linkedin.png" width={24} height={24}/>
+            <Image src="/linkedin.png" alt="linkedinimage" width={24} height={24}/>
             </Link>
 
             <Link href= "#">
-            <Image src="/pinterest.png" width={24} height={24}/>
+            <Image src="/pinterest.png" alt="pinterestimage" width={24} height={24}/>
             </Link>
 
             <Link href= "#">
-            <Image src="/dribbble.png" width={24} height={24}/>
+            <Image src="/dribbble.png" alt="dribbleimage" width={24} height={24}/>
             </Link>
 
             <Link href= "#">
-            <Image src="/instagram.png" width={24} height={24}/>
+            <Image src="/instagram.png" alt="instagramimage" width={24} height={24}/>
             </Link>
 
             </div>

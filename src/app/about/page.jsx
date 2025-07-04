@@ -19,13 +19,13 @@ const About = () => {
                     <div className="flex flex-col gap-12 justify-center">
                         <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
                         <p className="text-lg">
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                           Quas a ratione enim sit perferendis at laborum consequuntur, 
-                           cupiditate doloribus pariatur soluta reiciendis eligendi optio magnam praesentium.
-                            At corporis sapiente voluptatem?
+                         I'm a detail-oriented and self-driven developer with a strong foundation in full-stack web development. 
+  I enjoy turning complex problems into clean, user-centric solutions—building everything from responsive interfaces to scalable backends.
+  With hands-on experience in JavaScript, Python, automation, and cloud tools like Docker and Kubernetes, 
+  I aim to contribute to impactful projects that blend functionality with creativity.
                                </p>
                     <span className="italic" >
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                         Constantly learning. Always building. Never settling.
                     </span>
                    
                     <div className="self-end">
@@ -124,7 +124,7 @@ const About = () => {
                       transition={{delay:0.2}}
 
                      className="font-bold text-2xl">
-                      EXPERIENCE
+                      Academics Details
                       </motion.h1>
 
                     {/*Experience LIST*/}
@@ -137,10 +137,10 @@ const About = () => {
                     <div className="flex justify-between h-48">
                         {/* LEFT*/}
                     <div className="w-1/3">
-                      <div className="bg-white font-semibold p-3 rounded-b-lg rounded-s-lg ">Senior Javascript Engineer</div>
-                      <div className="p-3 text-sm italic">My current employment . May better than before!</div>
-                      <div className="p-3 text-sm text-red-400 font-semibold">2024-present</div>
-                      <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Apple</div>
+                      <div className="bg-white font-semibold p-3 rounded-b-lg rounded-s-lg ">  B.Tech in Computer Science & Engineering</div>
+                      <div className="p-3 text-sm italic"> Pursuing core subjects and building real-world tech skills.</div>
+                      <div className="p-3 text-sm text-red-400 font-semibold">2021-2025</div>
+                      <div className="p-1 rounded bg-white text-sm font-semibold w-fit">ABESEC</div>
                        </div>
                        {/*center*/}
 
@@ -171,20 +171,19 @@ const About = () => {
                        </div>
                        {/* right side*/}
                        <div className="w-1/3">
-                       <div className="bg-white font-semibold p-3 rounded-b-lg rounded-s-lg ">Senior Javascript Engineer</div>
-                      <div className="p-3 text-sm italic">My current employment . May better than before!</div>
-                      <div className="p-3 text-sm text-red-400 font-semibold">2024-present</div>
-                      <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Apple</div>
+                       <div className="bg-white font-semibold p-3 rounded-b-lg rounded-s-lg ">Class 12th – PCM</div>
+                      <div className="p-3 text-sm italic"> with a strong foundation in Physics, Chemistry & Math.</div>
+                      <div className="p-3 text-sm text-red-400 font-semibold">2020</div>
+                      <div className="p-1 rounded bg-white text-sm font-semibold w-fit">ISC Board</div>
                        </div>
                       </div>
                        {/*Experience LIST ITEM*/}
                     <div className="flex justify-between h-48">
                         {/* LEFT*/}
                     <div className="w-1/3">
-                      <div className="bg-white font-semibold p-3 rounded-b-lg rounded-s-lg">Senior Javascript Engineer</div>
-                      <div className="p-3 text-sm italic">My current employment . May better than before!</div>
-                      <div className="p-3 text-sm text-red-400 font-semibold">2024-present</div>
-                      <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Apple</div>
+                      <div className="bg-white font-semibold p-3 rounded-b-lg rounded-s-lg">Co-authored Research paper</div>
+                      <div className="p-3 text-sm italic">Presented paper on decentralised Frellancing in IEEE conference</div>
+                      <div className="p-3 text-sm text-red-400 font-semibold">2025</div>
                        </div>
                        {/*center*/}
 

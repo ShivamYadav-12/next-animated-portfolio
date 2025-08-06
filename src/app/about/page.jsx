@@ -1,5 +1,5 @@
 "use client"
-import { animate, delay, easeInOut, motion, useInView, useScroll } from "framer-motion";
+import {  easeInOut, motion, useInView, useScroll } from "framer-motion";
 import Brain from "../components/brain";
 import { useRef } from "react";
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
                     <div className="flex flex-col gap-12 justify-center">
                         <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
                         <p className="text-lg">
-                         I'm a detail-oriented and self-driven developer with a strong foundation in full-stack web development. 
+                         I am a detail-oriented and self-driven developer with a strong foundation in full-stack web development. 
   I enjoy turning complex problems into clean, user-centric solutions—building everything from responsive interfaces to scalable backends.
   With hands-on experience in JavaScript, Python, automation, and cloud tools like Docker and Kubernetes, 
   I aim to contribute to impactful projects that blend functionality with creativity.
